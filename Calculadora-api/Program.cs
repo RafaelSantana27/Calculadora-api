@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddSingleton<CalculadoraService>();
+builder.Services.AddSingleton<HistoricoService>();
 
 var app = builder.Build();
 
