@@ -1,6 +1,5 @@
 ﻿using Calculadora_api.Services;
 using Calculadora_api.Utils;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Calculadora_api.Controllers
@@ -10,10 +9,12 @@ namespace Calculadora_api.Controllers
     public class CalculadoraController : ControllerBase
     {
         private readonly CalculadoraService _calculadoraService;
+        private readonly HistoricoService _historicoService;
 
-        public CalculadoraController(CalculadoraService calculadoraService)
+        public CalculadoraController(CalculadoraService calculadoraService, HistoricoService historicoService)
         {
             _calculadoraService = calculadoraService;
+            _historicoService = historicoService;
         }
 
 
@@ -80,6 +81,13 @@ namespace Calculadora_api.Controllers
                 return Ok(media.ToString());
             }
             return BadRequest("Entrada inválida. Certifique-se de fornecer números válidos.");
+        }
+
+        [HttpGet("historico")]
+        public IActionResult Historico()
+        {
+            var historico = _historicoService.ObterHistorico();
+            return Ok(historico);
         }
     }
 }
