@@ -1,0 +1,72 @@
+[
+  {
+    "Operacao": "Soma",
+    "PrimeiroNumero": 5,
+    "SegundoNumero": 10,
+    "Resultado": 15,
+    "DataHoraOperacao": "2026-09-09T21:34:37.6412889-03:00"
+  },
+  {
+    "Operacao": "Soma",
+    "PrimeiroNumero": 5,
+    "SegundoNumero": 25,
+    "Resultado": 30,
+    "DataHoraOperacao": "2026-09-09T21:34:48.0340849-03:00"
+  },
+  {
+    "Operacao": "Subtra\u00E7\u00E3o",
+    "PrimeiroNumero": 10,
+    "SegundoNumero": 50,
+    "Resultado": -40,
+    "DataHoraOperacao": "2026-09-09T21:35:00.2965087-03:00"
+  },
+  {
+    "Operacao": "Subtra\u00E7\u00E3o",
+    "PrimeiroNumero": 5,
+    "SegundoNumero": 2,
+    "Resultado": 3,
+    "DataHoraOperacao": "2026-09-09T21:35:12.0476674-03:00"
+  },
+  {
+    "Operacao": "Multiplica\u00E7\u00E3o",
+    "PrimeiroNumero": 5,
+    "SegundoNumero": 5,
+    "Resultado": 25,
+    "DataHoraOperacao": "2026-09-09T21:35:23.9167837-03:00"
+  },
+  {
+    "Operacao": "Multiplica\u00E7\u00E3o",
+    "PrimeiroNumero": 9,
+    "SegundoNumero": 8,
+    "Resultado": 72,
+    "DataHoraOperacao": "2026-09-09T21:35:40.3154147-03:00"
+  },
+  {
+    "Operacao": "Divis\u00E3o",
+    "PrimeiroNumero": 250,
+    "SegundoNumero": 10,
+    "Resultado": 25,
+    "DataHoraOperacao": "2026-09-09T21:36:00.6295075-03:00"
+  },
+  {
+    "Operacao": "Divis\u00E3o",
+    "PrimeiroNumero": 90,
+    "SegundoNumero": 6,
+    "Resultado": 15,
+    "DataHoraOperacao": "2026-09-09T21:36:19.7783999-03:00"
+  },
+  {
+    "Operacao": "M\u00E9dia",
+    "PrimeiroNumero": 150,
+    "SegundoNumero": 350,
+    "Resultado": 250,
+    "DataHoraOperacao": "2026-09-09T21:36:37.2658064-03:00"
+  },
+  {
+    "Operacao": "M\u00E9dia",
+    "PrimeiroNumero": 15,
+    "SegundoNumero": 7,
+    "Resultado": 11,
+    "DataHoraOperacao": "2026-09-09T21:36:54.1433816-03:00"
+  }
+]

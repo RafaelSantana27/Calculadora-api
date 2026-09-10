@@ -1,0 +1,51 @@
+[
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 20,
+    "SegundoNumero": 50,
+    "Resultado": 70,
+    "DataHoraOperacao": "2026-09-09T20:53:23.871777-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 20,
+    "SegundoNumero": 20,
+    "Resultado": 40,
+    "DataHoraOperacao": "2026-09-09T20:53:27.3145282-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 20,
+    "SegundoNumero": 30,
+    "Resultado": 50,
+    "DataHoraOperacao": "2026-09-09T20:53:31.6936861-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 20,
+    "SegundoNumero": 3,
+    "Resultado": 23,
+    "DataHoraOperacao": "2026-09-09T20:53:36.1612438-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 20,
+    "SegundoNumero": 1,
+    "Resultado": 21,
+    "DataHoraOperacao": "2026-09-09T20:54:43.3756286-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 1,
+    "SegundoNumero": 1,
+    "Resultado": 2,
+    "DataHoraOperacao": "2026-09-09T20:54:47.4927379-03:00"
+  },
+  {
+    "Operacao": "Soma:",
+    "PrimeiroNumero": 5,
+    "SegundoNumero": 5,
+    "Resultado": 10,
+    "DataHoraOperacao": "2026-09-09T20:55:18.3339136-03:00"
+  }
+]
